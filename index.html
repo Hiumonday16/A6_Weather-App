@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Checking</title>
+    <link rel="stylesheet" 
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" 
+          integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" 
+          crossorigin="anonymous" 
+          referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <div id="weather">
+        <input type="text" class="search">
+        <div class="content">
+            <h1 class="capital">
+                <span class="city">Hanoi</span>
+                <span>,</span>
+                <span class="country">Vietnam</span>
+            </h1>
+
+            <div class="time">8/15/2024, 8:30:20 PM</div>
+            <div class="temperature">
+                <span class="value">23</span><sup>o</sup>C
+            </div>
+
+            <div class="short-desc">Clouds</div>
+            <div class="more-desc">
+                <div class="visibility">
+                    <i class="fa-solid fa-eye"></i>
+                    <span>1000m</span>
+                </div>
+                <div class="wind">
+                    <i class="fa-solid fa-wind"></i>
+                    <span>5m/s</span>
+                </div>
+                <div class="sun">
+                    <i class="fa-solid fa-sun"></i>
+                    <span>60%</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+    <script src="app.js"></script>
+</html>
